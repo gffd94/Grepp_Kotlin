@@ -2,7 +2,6 @@ package S09
 
 fun main() {
 
-    //
     val 민수 = OpStudent()
     // 이때 최초 lazy 호출이 되면서 name 에 민수 들어감
     println("민수.name = ${민수.name}")
@@ -13,6 +12,9 @@ fun main() {
 
     val contents1 = reader.contents
     println("content1 = $contents1")
+
+    val contents2 = reader.contents
+    println("contents2 = $contents2")
 
 }
 

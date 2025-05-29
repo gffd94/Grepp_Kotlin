@@ -17,6 +17,7 @@ class OpAnimal {
 
     fun sayName() {
         // 하지만 setter가 열려있다 그렇게 좋지 못함..
+        // name의 초기값을 판단하는 람다식
         if ( ::name.isInitialized ) {
             println("제이름은 ${name}입니다.")
         } else {

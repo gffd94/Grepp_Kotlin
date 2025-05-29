@@ -5,7 +5,7 @@ fun main() {
 
     // var val
 //    var two: Int? //(null을 허용만 하는 것! 선언을 해줘야함)
-    var two: Int //(null을 허용만 하는 것! 선언을 해줘야함)
+    var two: Int
     var twelve: Int
 
     two = 2

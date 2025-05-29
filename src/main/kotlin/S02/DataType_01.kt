@@ -39,7 +39,7 @@ fun main() {
     println(favorite)
 
     val sc = "제가제일 좋아하는 과일은 $name 입니다."
-    // 2. ${표현식}
+    // 2. ${표현식} : 변수명, 변수 + 연산자, 함수 ...
     val number = 20
     val sentence1 = "nem${number}ber"
     println(sentence1)
