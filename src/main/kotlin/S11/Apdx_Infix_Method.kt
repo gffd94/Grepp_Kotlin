@@ -6,7 +6,9 @@ fun main() {
 
     people1 eat "햄버거"
     People("철수") eat "콜라"
-    
+
+    people1 a 1 b 2
+
 }
 
 class People(val name: String) {
@@ -16,7 +18,13 @@ class People(val name: String) {
     }
 
     //체이닝도 가능
+    infix fun a(t: Int): People {
+        return this
+    }
 
+    infix fun b(t: Int): People {
+        return this
+    }
 
 
 }

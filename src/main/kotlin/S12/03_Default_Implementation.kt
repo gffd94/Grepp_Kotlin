@@ -19,12 +19,14 @@ class DiImple: DiInterfaceA {
 
 }
 
+// 둘다 print() 메서드가 있지만 둘중 아무거나 구현 하더라도 이상하지 않음
 class DiImple2: DiInterfaceA, DiInterfaceB {
     override fun print() {
         println("D: 직접 구현한 것!")
     }
 }
 
+// 다만 각각의 내용이 달라서 구현받은 print를 사용하고 싶다면 명시해줄 것
 class DiImple3: DiInterfaceA, DiInterfaceB {
     override fun print() {
 

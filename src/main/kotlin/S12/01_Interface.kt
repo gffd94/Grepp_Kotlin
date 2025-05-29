@@ -12,8 +12,8 @@ fun main() {
 }
 
 interface OopA {
-    // publi abstract 가 생략되어있음.
-    fun a() // open이 자동으로 붙어있음
+    // public abstract 가 생략되어있음.
+    public abstract fun a() // open이 자동으로 붙어있음
     fun b()
 }
 
